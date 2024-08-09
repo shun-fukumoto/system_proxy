@@ -24,10 +24,10 @@ apply plugin: 'com.android.library'
 android {
     namespace 'com.kaivean.system_proxy'
 
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
-        minSdk 19
+        minSdk 24
     }
     lintOptions {
         disable 'InvalidPackage'
